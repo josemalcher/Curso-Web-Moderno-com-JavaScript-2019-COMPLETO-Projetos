@@ -43,6 +43,7 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 
 ## <a name="parte1">Introdução - 5 aulas</a>
 
+![](img\01-01-introducao.PNG)
 
 
 [Voltar ao Índice](#indice)
@@ -52,7 +53,9 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 
 ## <a name="parte2"> Configuração do Ambiente - 4 aulas</a>
 
-
+- install node
+- install VS Code
+- Extesão "Run"
 
 [Voltar ao Índice](#indice)
 
@@ -60,6 +63,8 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 
 
 ## <a name="parte3"> Javascript: Fundamentos - 42 aulas</a>
+
+- 03-Javascript-Fundamentos\organizacao.js
 
 
 
@@ -84,7 +89,7 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 [Voltar ao Índice](#indice)
 
 ---
-
+"
 
 ## <a name="parte6"> Javascript: Objeto - 17 aulas</a>
 
