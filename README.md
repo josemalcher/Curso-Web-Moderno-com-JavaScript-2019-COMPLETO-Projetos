@@ -64,9 +64,75 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 
 ## <a name="parte3"> Javascript: Fundamentos - 42 aulas</a>
 
-- 03-Javascript-Fundamentos\organizacao.js
+- 014 O Basico de Var Let e Const 
+    - 03-Javascript-Fundamentos\variaveisEConstantes.js
+    ```javascript
+    var a = 3
+    let b = 4
 
+    var a = 20;
+    b = 40;
 
+    console.log(a, b)
+
+    a = 300
+    b = 500
+    console.log(a, b)
+
+    const c = 5
+    //c = 50
+    console.log(c)
+    ```
+- 015 Tipagem Fraca 
+    - 03-Javascript-Fundamentos\tipagemFraca.js
+    ```javascript
+         let qualquer = 'texto'
+        console.log(qualquer)
+        console.log(typeof qualquer)
+
+        qualquer = 200
+        console.log(qualquer)
+        console.log(typeof qualquer)
+
+        /* 
+        texto
+        string
+        200
+        number 
+        */
+    ```
+- 016 Tipos em JavaScript Number
+    - 03-Javascript-Fundamentos\numeros.js
+        ```javascript
+        const peso1 = 1.0
+        const peso2 = Number('2.0')
+
+        console.log(peso1, peso2)
+        console.log(Number.isInteger(peso1))
+        console.log(Number.isInteger(peso2))
+
+        const avalia1 = 9.234
+        const avalia2 = 5.212
+
+        const total = avalia1 * peso1 + avalia2 * peso2
+        const media = total / (peso1 + peso2)
+
+        console.log(media.toFixed(2))
+        console.log(media.toString(2)) // em binário
+        console.log(typeof media)
+        console.log(typeof total)
+
+        /* 
+        1 2
+        true
+        true
+        6.55
+        110.1000110101111011100100000000101011101100001101
+        number
+        number 
+        */
+        ```
+   
 
 [Voltar ao Índice](#indice)
 
