@@ -133,6 +133,58 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
         */
         ```
    
+- 018 Usando Math
+    - 03-Javascript-Fundamentos\math.js
+        ```js
+        const raio = 5.6
+        const area = Math.PI * Math.pow(raio, 2)
+
+        console.log(area)
+        console.log(typeof Math)
+
+        /* 
+        98.5203456165759
+        object
+        */
+        ```
+
+- 019 Tipos em JavaScript String
+    - 03-Javascript-Fundamentos\string.js
+
+        ```js
+        const escola = "Cod3r"
+
+        console.log(escola.charAt(4))
+        console.log(escola.charAt(5))
+        console.log(escola.charCodeAt(3))
+        console.log(escola.indexOf('3'))
+
+        console.log(escola.substring(1))
+        console.log(escola.substring(0,3))
+
+        console.log('Escola '.concat(escola).concat("!"))
+        console.log('Escola ' + escola + "!")
+        console.log(escola.replace(3, 'r'))
+
+        console.log('Ana, Maria,Jose'.split(','))
+
+        /* 
+        r
+
+        51
+        3
+        od3r
+        Cod
+        Escola Cod3r!
+        Escola Cod3r!
+        Codrr
+        [ 'Ana', ' Maria', 'Jose' ]
+        */
+        ```
+
+- 020 Usando Template Strings
+
+
 
 [Voltar ao Índice](#indice)
 
