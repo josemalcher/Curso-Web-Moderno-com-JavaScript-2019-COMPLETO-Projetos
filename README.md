@@ -183,7 +183,30 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
         ```
 
 - 020 Usando Template Strings
+    - 03-Javascript-Fundamentos\templateString.js
+        ```js
+        const nome = 'Jose'
+        const contatenacao = 'Olá ' + nome  + '!'
+        const template = `
+            Olá
+            ${nome}!`
 
+        console.log(contatenacao , template)
+
+        // expressões
+        console.log(` 1 + 1 = ${1+1}`)
+
+        const up = texto => texto.toUpperCase()
+        console.log(`Fale ${up('cuidado')}`)
+
+        /* 
+        Olá Jose! 
+            Olá
+            Jose!
+        1 + 1 = 2
+        Fale CUIDADO
+        */
+        ```
 
 
 [Voltar ao Índice](#indice)
