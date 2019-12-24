@@ -34,7 +34,7 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 26. [Projeto Monty Hall (Vue) - 5 aulas](#parte26)
 27. [Banco Relacional - 24 aulas](#parte27)
 28. [Banco Não Relacional - 16 aulas](#parte28)
-29. [Express - 12 aulas](#parte29)     
+29. [Express - 12 aulas](#parte29)
 30. [Projeto Base de Conhecimento • Backend - 25 aulas](#parte30)
 31. [Projeto Base de Conhecimento • Frontend - 31 aulas](#parte31)
 32. [Conclusão - 1 aula](#parte32)
@@ -101,7 +101,7 @@ console.log(c)
     number
     */
 ```
-    
+
 - 016 Tipos em JavaScript Number
   - 03-Javascript-Fundamentos\numeros.js
 
@@ -145,7 +145,7 @@ const area = Math.PI * Math.pow(raio, 2)
 console.log(area)
 console.log(typeof Math)
 
-/* 
+/*
 98.5203456165759
 object
 */
@@ -203,8 +203,8 @@ console.log(` 1 + 1 = ${1+1}`)
 const up = texto => texto.toUpperCase()
 console.log(`Fale ${up('cuidado')}`)
 
-/*           
-Olá Jose! 
+/*
+Olá Jose!
     Olá
     Jose!
 1 + 1 = 2
@@ -298,7 +298,7 @@ Fale CUIDADO
 
     console.log(typeof valores)
 
-    /* 
+    /*
     7.7 2.3
     undefined
     [ 7.7, 8.8, 6.3, 2.3, 10 ]
@@ -332,7 +332,7 @@ const prod2 = {
 }
 console.log(prod2)
 
-/* 
+/*
 { nome: 'celular Ultra mega', preco: 3344.88, 'Desconto Legal': 0.4 }
 { nome: 'Camisa Polo', preco: 90.99 }
 */
@@ -348,7 +348,7 @@ console.log(valor)
 valor = null
 console.log(valor)
 // console.log(valor.toString) // Erro!
-/* 
+/*
     undefined
     null
 */
@@ -364,7 +364,7 @@ produto.preco = undefined // Evitar atribuir Uniderfined
 console.log(!!produto.preco)
 //delete produto.preco
 console.log(produto)
-/* 
+/*
     undefined
     {}
     { preco: 3.99 }
@@ -375,10 +375,32 @@ console.log(produto)
 produto.preco = null // sem preço
 console.log(!!produto.preco)
 console.log(!!produto)
-/* 
+/*
     false
     true
 */
+```
+
+- 025 Quase Tudo e Função
+  - 03-Javascript-Fundamentos\funcaoEmQuaseTudo.js
+
+```js
+    console.log(typeof Object)
+
+    class Produto{}
+    console.log(typeof Produto)
+
+    /*
+    function
+    function
+    */
+```
+
+- 026 Exemplos Basicos de Funções 01
+  - c
+
+```js
+
 ```
 
 
