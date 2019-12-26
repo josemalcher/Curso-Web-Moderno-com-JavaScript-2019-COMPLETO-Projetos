@@ -507,6 +507,29 @@ fora 22
  */
 ```
 
+- 030 Declarac227o de Variaveis Com Let
+  - 03-Javascript-Fundamentos\usandoLet1.js
+
+```js
+//var num = 1
+let num = 1
+{
+    let num = 22
+    console.log('Dentro = ', num)
+}
+console.log('Fora = ', num)
+/*
+Dentro =  22
+Fora =  1
+*/
+```
+
+-  031 Usando Var em Loop 01
+  -
+
+```js
+
+```
 
 [Voltar ao Índice](#indice)
 
