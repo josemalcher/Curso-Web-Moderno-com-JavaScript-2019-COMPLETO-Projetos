@@ -482,7 +482,31 @@ function teste(){
 
 teste()
 //console.log(local) //ReferenceError: local is not defined
+
+/*
+Será??
+123
+
+*/
 ```
+
+- 029 Declarac227o de Variaveis Com Var 02
+  - 03-Javascript-Fundamentos\usandoVar2.js
+
+```js
+var num = 11
+{
+    var num = 22
+    console.log('dentro', num)
+}
+console.log('fora', num)
+
+/*
+dentro 22
+fora 22
+ */
+```
+
 
 [Voltar ao Índice](#indice)
 
