@@ -43,7 +43,7 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 
 ## <a name="parte1">Introdução - 5 aulas</a>
 
-![](img\01-01-introducao.PNG)
+![mapa](img\01-01-introducao.PNG)
 
 [Voltar ao Índice](#indice)
 
