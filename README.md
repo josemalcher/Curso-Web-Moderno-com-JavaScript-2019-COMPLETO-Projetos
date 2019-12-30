@@ -599,7 +599,7 @@ ReferenceError: j is not defined
     */
 ```
 
-- 035 Entendendo o Hoisting
+-  
   - 03-Javascript-Fundamentos\hoisting.js
   
 ```js
@@ -616,6 +616,30 @@ console.log(' b = ' , b)
 
 console.log(' b = ' , b) // error
 ReferenceError: Cannot access 'b' before initialization
+*/
+```
+
+- 036 Funções Vs Objeto
+  - 03-Javascript-Fundamentos\objeto2.js
+
+```js
+console.log(typeof Object)
+console.log(typeof new Object)
+
+const Cliente = function(){}
+console.log(typeof Cliente)
+console.log(typeof new Cliente)
+
+class Produto{} // ES 2015 (ES6)
+console.log(typeof Produto)
+console.log(typeof new Produto)
+/*
+function
+object
+function
+object
+function
+object
 */
 ```
 
