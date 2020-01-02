@@ -787,6 +787,24 @@ console.log(ad, cc)
 ```
 
 - 041 Operadores Destructuring 02/4
+  - 03-Javascript-Fundamentos\destructuring2.js
+
+```js
+    const [a] = [10]
+    console.log(a)
+
+    const [n1,n2, n3, n4 = 22] = [10,30,9,9]
+    console.log(n1,n2,n3,n4)
+
+    const [,[,nota]] = [[,8,8],[9,6,8]]
+    console.log(nota)
+    /*
+        10
+        10 30 9 9
+        6
+    */
+```
+
 - 042 Operadores Destructuring 03/4
 - 043 Operadores Destructuring 04/4
 
