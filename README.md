@@ -681,6 +681,58 @@ console.log(cliente)
 */
 ```
 
+- 038 Notação Ponto
+  - 03-Javascript-Fundamentos\notacaoPonto.js
+
+```js
+console.log(Math.ceil(6.1))
+
+const obj1 = {}
+
+obj1.nome = 'Bola'
+// obj1['nome'] = 'Bola 2'
+console.log(obj1.nome)
+
+function Obj(nome){
+    this.nome = nome
+    this.exec = function(){
+        console.log('Exec... Obj')
+    }
+}
+const obj2 = new Obj('Cadeira')
+const obj3 = new Obj('Mesa')
+
+console.log(obj2.nome)
+console.log(obj3.nome)
+obj3.exec()
+
+/*
+    7
+    Bola
+    Cadeira
+    Mesa
+    Exec... Obj
+*/
+```
+
+- 039 Operadores Atribuição
+
+- 040 Operadores Destructuring 01/4
+
+- 044 Operadores Aritmeticos
+
+- 045 Operadores Relacionais
+
+- 046 Operadores Logicos
+
+- 047 Operadores Unarios
+
+- 048 Operadores Ternario
+
+- 049 Contexto de Execução Browser vs Node
+
+- 050 Tratamento de Erro (TryCatchThrow)
+
 [Voltar ao Índice](#indice)
 
 ---
