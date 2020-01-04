@@ -938,7 +938,7 @@ console.log(compras(false, false))
 
 - 047 Operadores Unarios
   - 03-Javascript-Fundamentos\unarios.js
-  
+
 ```js
 let num1 = 1
 let num2 = 2
@@ -960,6 +960,19 @@ console.log(num1 === num2)
 ```
 
 - 048 Operadores Ternario
+  - 03-Javascript-Fundamentos\ternario.js
+
+```js
+const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+
+console.log(resultado(7.1))
+console.log(resultado(6.1))
+
+/*
+    Aprovado
+    Reprovado
+*/
+```
 
 - 049 Contexto de Execução Browser vs Node
 
