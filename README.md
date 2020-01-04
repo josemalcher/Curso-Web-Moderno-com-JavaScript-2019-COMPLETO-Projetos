@@ -937,6 +937,27 @@ console.log(compras(false, false))
 ```
 
 - 047 Operadores Unarios
+  - 03-Javascript-Fundamentos\unarios.js
+  
+```js
+let num1 = 1
+let num2 = 2
+
+num1++
+console.log(num1)
+--num1
+console.log(num1)
+
+console.log(++num1 === num2--)
+console.log(num1 === num2)
+
+/*
+    2
+    1
+    true
+    false
+*/
+```
 
 - 048 Operadores Ternario
 
