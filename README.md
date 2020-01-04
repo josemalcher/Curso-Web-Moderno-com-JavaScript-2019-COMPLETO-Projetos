@@ -43,7 +43,7 @@ Curso Web 13 cursos - Javascript React Vue JS Node HTML CSS jQuery Bootstrap 4 W
 
 ## <a name="parte1">Introdução - 5 aulas</a>
 
-![mapa](img\01-01-introducao.PNG)
+![mapa](https://github.com/josemalcher/Curso-Web-Moderno-com-JavaScript-2019-COMPLETO-Projetos/blob/master/img/01-01-introducao.PNG?raw=true)
 
 [Voltar ao Índice](#indice)
 
