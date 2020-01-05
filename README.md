@@ -977,6 +977,43 @@ console.log(resultado(6.1))
 - 049 Contexto de Execução Browser vs Node
 
 - 050 Tratamento de Erro (TryCatchThrow)
+  - 03-Javascript-Fundamentos\erro.js
+```js
+function tratarErrorElancar(erro){
+    //throw new Error('...')
+    //throw true
+    //throw 10
+    //throw 'Mensagem'
+    throw {
+        nome: erro.name,
+        msg: erro.message,
+        date: new Date
+    }
+}
+
+function imprimirNomeGritando(obj){
+    try{
+        console.log(obj.name.toUpperCase() + '!!!')
+    }catch (e){
+        tratarErrorElancar(e)
+    }finally{
+        console.log('Final...')
+    }
+}
+const obj = {nome: 'José'} //erro
+imprimirNomeGritando(obj)
+
+/*
+  throw {
+    ^
+{
+  nome: 'TypeError',
+  msg: "Cannot read property 'toUpperCase' of undefined",
+  date: 2020-01-05T20:47:14.557Z
+}
+*/
+
+```
 
 [Voltar ao Índice](#indice)
 
