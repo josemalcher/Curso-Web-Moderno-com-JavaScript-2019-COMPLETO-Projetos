@@ -1022,6 +1022,66 @@ imprimirNomeGritando(obj)
 
 ## <a name="parte4"> Javascript: Estruturas de Controle - 11 aulas</a>
 
+- 052 Usando a Estrutura IF 01/2
+  - 04-Javascript-Estruturas-de-Controle\if_1.js
+  
+```js
+    function soBoaNoticia(nota){
+        if(nota >= 7){
+            console.log('Aprovado com ' + nota)
+        }
+    }
+
+    soBoaNoticia(8.1)
+    soBoaNoticia(6.1)
+
+    function seForVerdadeEuFalo(valor){
+        if(valor){
+            console.log('É verdade... ' + valor)
+        }
+    }
+
+    seForVerdadeEuFalo()
+    seForVerdadeEuFalo(null)
+    seForVerdadeEuFalo(undefined)
+    seForVerdadeEuFalo(NaN)
+    seForVerdadeEuFalo('')
+    seForVerdadeEuFalo(0)
+    seForVerdadeEuFalo(-1)
+    seForVerdadeEuFalo(' ')
+    seForVerdadeEuFalo('?')
+    seForVerdadeEuFalo([])
+    seForVerdadeEuFalo([1,2])
+    seForVerdadeEuFalo({})
+
+    /*
+        provado com 8.1
+        É verdade... -1
+        É verdade...  
+        É verdade... ?
+        É verdade... 
+        É verdade... 1,2
+        É verdade... [object Object]
+    */
+```
+
+- 053 Usando a Estrutura IF 02/2
+
+- 054 Usando a Estrutura IFELSE
+
+- 055 Usando a Estrutura IFELSE IF...
+
+- 056 Usando a Estrutura SWITCH
+
+- 057 Usando a Estrutura WHILE
+
+- 058 Usando a Estrutura DOWHILE
+
+- 059 Usando a Estrutura FOR
+
+- 060 Usando a Estrutura FORIN
+
+- 061 Usando BreakContinue
 
 
 [Voltar ao Índice](#indice)
