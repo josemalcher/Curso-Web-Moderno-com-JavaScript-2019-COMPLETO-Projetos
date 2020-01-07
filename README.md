@@ -1096,6 +1096,27 @@ teste2(9)
 ```
 
 - 054 Usando a Estrutura IFELSE
+  - 04-Javascript-Estruturas-de-Controle\ifelse.js
+
+```js
+const imprimirResultado = function (nota){
+    if(nota >= 7){
+        console.log('Aprovado')
+    }else{
+        console.log('Reprovado')
+    }
+}
+imprimirResultado(5)
+imprimirResultado(7)
+imprimirResultado(3)
+imprimirResultado('FAIL!') // atenção!
+/*
+Reprovado
+Aprovado
+Reprovado
+Reprovado
+*/
+```
 
 - 055 Usando a Estrutura IFELSE IF...
 
