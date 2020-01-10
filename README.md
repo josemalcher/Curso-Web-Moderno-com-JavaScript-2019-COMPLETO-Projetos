@@ -1284,7 +1284,7 @@ for(let i = 0 ; i < notas.length ; i++){
 
 - 060 Usando a Estrutura FORIN
   - 04-Javascript-Estruturas-de-Controle\for_in.js
-  
+
 ```js
 const notas = [5.5, 4.3 , 9.9, 10, 5.6]
 
@@ -1301,10 +1301,70 @@ const pessoa = {
 for (let i in pessoa){
     console.log(`${i} = ${pessoa[i]} `)
 }
+/*
+    0 5.5
+    1 4.3
+    2 9.9
+    3 10
+    4 5.6
+    nome = Jose
+    sobrenome = malcher jr
+    idade = 35
+    peso = 95
+*/
 ```
 
-- 061 Usando BreakContinue
+- 061 Usando Break Continue
+  - 04-Javascript-Estruturas-de-Controle\breackContinue.js
+  
+```js
+const nums = [1,2,3,4,5,6,7]
 
+for(x in nums){
+    if(x == 3){
+        break
+    }
+    console.log(`${x} = ${nums[x]}`)
+}
+
+for (y in nums){
+    if(y == 3){
+        continue
+    }
+    console.log(`${y} = ${nums[y]}`)
+}
+exteno:
+for(a in nums){
+    for(b in nums){
+        if(a == 2 && b == 3){
+            break exteno
+        }
+        console.log(`Par = ${a}, ${b}`)
+    }
+}
+/*
+    0 = 1
+    1 = 2
+    2 = 3
+    0 = 1
+    1 = 2
+    2 = 3
+    4 = 5
+    Par = 0, 0
+    Par = 0, 1
+    Par = 0, 2
+    Par = 0, 3
+    Par = 0, 4
+    Par = 1, 0
+    Par = 1, 1
+    Par = 1, 2
+    Par = 1, 3
+    Par = 1, 4
+    Par = 2, 0
+    Par = 2, 1
+    Par = 2, 2
+*/
+```
 
 [Voltar ao Índice](#indice)
 
