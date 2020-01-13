@@ -1416,6 +1416,57 @@ const cincomais = soma(2,3)
 cincomais(4) // 9
 ```
 
+- 063 Parametros e Retorno São Opcionais
+  - 05-Javascript-Funcao\paramRetornoSaoOpcionais.js
+
+```js
+function area (largura, altura){
+    const area = largura * altura
+    if(area > 10){
+        console.log(`valor acima do permitido ${area}m2`)
+    }else{
+        return area
+    }
+}
+
+console.log(area(2,1))
+console.log(area(2))
+console.log(area())
+console.log(area(2,1,3,17,22,44))
+console.log(area(5,5))
+/*
+    2
+    NaN
+    NaN
+    2
+    valor acima do permitido 25m2
+    undefined
+*/
+```
+
+- 064 Parametros Variaveis
+- 065 Parametro Padrãoo
+- 066 this pode Variar
+- 067 this e a Funcão bind 01
+- 068 this e a Funcão bind 02
+- 069 Funcões Arrow 01
+- 070 Funcões Arrow 02
+- 071 Funcões Arrow 03
+- 072 Funcões Anônimas
+- 073 Funcões Callback 01
+- 074 Funcões Callback 02
+- 075 Funcões Callback 03
+- 076 Funcões Construtoras
+- 077 Tipos de Declaracão
+- 078 Contexto Lexico
+- 079 Closures
+- 080 Funcão Factory 01
+- 081 Funcão Factory 02
+- 082 Classe vs Funcão Factory
+- 083 Desafio Funcão Construtora
+- 084 IIFE
+- 085 Call  Apply
+
 [Voltar ao Índice](#indice)
 
 ---
