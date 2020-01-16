@@ -1511,7 +1511,12 @@ console.log(soma3(), soma3(3), soma3(1,2,3), soma3(0,0,0))
 ```
 
 - 066 this pode Variar
+
+Artigo com mais contextos: <https://imasters.com.br/javascript/javascript-entendendo-o-de-uma-vez-por-todas>
+
 - 067 this e a Funcão bind 01
+
+
 - 068 this e a Funcão bind 02
 - 069 Funcões Arrow 01
 - 070 Funcões Arrow 02
