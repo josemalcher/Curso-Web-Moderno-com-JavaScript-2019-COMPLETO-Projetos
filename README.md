@@ -1515,7 +1515,30 @@ console.log(soma3(), soma3(3), soma3(1,2,3), soma3(0,0,0))
 Artigo com mais contextos: <https://imasters.com.br/javascript/javascript-entendendo-o-de-uma-vez-por-todas>
 
 - 067 this e a Funcão bind 01
+  - 05-Javascript-Funcao\thisEBind.js
 
+```js
+const pessoa = {
+    saudacao : 'Bom dia',
+    falar(){
+        console.log(this.saudacao);
+    }
+}
+
+pessoa.falar()
+const falar = pessoa.falar
+falar()
+/*
+    Bom dia
+    undefined
+*/
+
+const falarDePessoa = pessoa.falar.bind(pessoa)
+falarDePessoa()
+
+// Bom dia
+
+```
 
 - 068 this e a Funcão bind 02
 - 069 Funcões Arrow 01
