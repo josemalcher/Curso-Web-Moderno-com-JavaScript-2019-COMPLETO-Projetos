@@ -1541,6 +1541,23 @@ falarDePessoa()
 ```
 
 - 068 this e a Funcão bind 02
+  - 05-Javascript-Funcao\thisEBind2.js
+
+```js
+function Pessoa(){
+    this.idade = 0
+
+    const self = this
+    setInterval(function(){
+        /* this.idade++ */
+        self.idade++
+        console.log(self.idade)
+    }/* .bind(this) */, 1000)
+}
+
+new Pessoa
+```
+
 - 069 Funcões Arrow 01
 - 070 Funcões Arrow 02
 - 071 Funcões Arrow 03
