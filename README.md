@@ -1559,6 +1559,34 @@ new Pessoa
 ```
 
 - 069 Funcões Arrow 01
+  - 05-Javascript-Funcao\arrowFunction.js
+
+```js
+    let dobro = function(a){
+        return 2 * a
+    }
+
+    dobro = (a) =>{
+        return 2 * a
+    } 
+
+    dobro = a => 2 * a // return está inplícito 
+    console.log(dobro(Math.PI))
+
+    let ola = function(){
+        return 'Olá'
+    }
+
+    ola = () => 'Olá'
+    ola = _ => 'Olá' // possui um param
+    console.log(ola())
+
+    /*
+    6.283185307179586
+    Olá
+    */
+```
+
 - 070 Funcões Arrow 02
 - 071 Funcões Arrow 03
 - 072 Funcões Anônimas
