@@ -1588,6 +1588,20 @@ new Pessoa
 ```
 
 - 070 Funcões Arrow 02
+  - 05-Javascript-Funcao\arrowFunction2.js
+
+```js
+ function Pessoa(){
+     this.idade = 0
+
+     setInterval(()=> {
+         this.idade++
+         console.log(this.idade)
+     }, 1000)
+ }
+ new Pessoa
+```
+
 - 071 Funcões Arrow 03
 - 072 Funcões Anônimas
 - 073 Funcões Callback 01
