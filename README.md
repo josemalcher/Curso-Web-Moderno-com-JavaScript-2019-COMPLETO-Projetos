@@ -1603,6 +1603,31 @@ new Pessoa
 ```
 
 - 071 Funcões Arrow 03
+  - 05-Javascript-Funcao\arrowFunction3y.js
+  
+```js
+let comparaComThis = function(param){
+    console.log(this === param)
+}
+comparaComThis(global) // true
+
+const obj = {}
+comparaComThis = comparaComThis.bind(obj)
+comparaComThis(global) // false
+comparaComThis(obj) // true
+
+let comparaComThisArrow = param => console.log(this === param)
+comparaComThisArrow(global) // false
+comparaComThisArrow(module.exports)  // true
+
+comparaComThisArrow = comparaComThisArrow.bind(obj) // forçando o contexto
+comparaComThisArrow(obj) // false
+comparaComThisArrow(module.exports)  // true
+
+
+
+```
+
 - 072 Funcões Anônimas
 - 073 Funcões Callback 01
 - 074 Funcões Callback 02
