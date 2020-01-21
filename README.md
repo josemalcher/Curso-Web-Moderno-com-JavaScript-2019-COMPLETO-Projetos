@@ -1629,6 +1629,39 @@ comparaComThisArrow(module.exports)  // true
 ```
 
 - 072 Funcões Anônimas
+  - 05-Javascript-Funcao\funcaoAnonima.js
+
+```js
+ const soma = function(x,y){
+     return x + y
+ }
+
+ const imprimeResultado = function(a, b , operacao = soma){
+    console.log(operacao(a, b))
+ }
+ imprimeResultado(3,4)
+ imprimeResultado(3,4, soma)
+ imprimeResultado(3,4, function(x,y){
+     return x - y
+ })
+ imprimeResultado(3,4, (x,y) => x * y)
+
+ const pessoa = {
+     falar: function(){
+         console.log('Olaa')
+     }
+ }
+ pessoa.falar()
+
+ /*
+    7
+    7
+    -1
+    12
+    Olaa
+ */
+```
+
 - 073 Funcões Callback 01
 - 074 Funcões Callback 02
 - 075 Funcões Callback 03
