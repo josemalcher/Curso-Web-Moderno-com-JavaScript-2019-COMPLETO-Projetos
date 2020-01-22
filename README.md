@@ -1663,6 +1663,27 @@ comparaComThisArrow(module.exports)  // true
 ```
 
 - 073 Funcões Callback 01
+  - 05-Javascript-Funcao\callback1.js
+
+```js
+const fabricantes = ['Mercedes' , 'Audi', 'bmw']
+
+function imprimir(nome , indice){
+    console.log(`${indice + 1} . $[nome]`)
+}
+fabricantes.forEach(imprimir)
+fabricantes.forEach(fabricantes => console.log(fabricantes))
+
+/*
+    1 . $[nome]
+    2 . $[nome]
+    3 . $[nome]
+    Mercedes
+    Audi
+    bmw
+*/
+```
+
 - 074 Funcões Callback 02
 - 075 Funcões Callback 03
 - 076 Funcões Construtoras
