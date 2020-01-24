@@ -1716,6 +1716,16 @@ console.log(notasBaixas3)
 ```
 
 - 075 Funcões Callback 03
+  - 05-Javascript-Funcao\callback3.js
+  
+```js
+// exemplo no browser
+
+document.getElementsByTagName('body')[0].onclick = function(e){
+    console.log('O evento Ocorreu')
+}
+```
+
 - 076 Funcões Construtoras
 - 077 Tipos de Declaracão
 - 078 Contexto Lexico
