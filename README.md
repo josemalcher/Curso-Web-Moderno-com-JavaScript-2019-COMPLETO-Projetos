@@ -1727,6 +1727,8 @@ document.getElementsByTagName('body')[0].onclick = function(e){
 ```
 
 - 076 Funcões Construtoras
+
+
 - 077 Tipos de Declaracão
 - 078 Contexto Lexico
 - 079 Closures
