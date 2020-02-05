@@ -1764,6 +1764,29 @@ console.log(typeof ferrari)
 ```
 
 - 077 Tipos de Declaracão
+  - 05-Javascript-Funcao\tiposDeclaracao.js
+
+```js
+console.log(soma(10,4))
+// function declaration
+function soma(x, y){
+    return x + y
+}
+
+// function expression
+const sub = function(x,y){
+    return x - y
+}
+console.log(sub(10,5))
+
+// named function expression
+const mult = function mult(x,y){
+    return x * y
+}
+console.log(mult(3,5))
+
+```
+
 - 078 Contexto Lexico
 - 079 Closures
 - 080 Funcão Factory 01
