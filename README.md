@@ -1788,6 +1788,22 @@ console.log(mult(3,5))
 ```
 
 - 078 Contexto Lexico
+  - 05-Javascript-Funcao\contextoLexico.js
+  
+```js
+const valor = 'Global'
+function minhaFuncao(){
+    console.log(valor)
+}
+function exer(){
+    const valor = 'Local'
+    minhaFuncao()
+}
+exer() // Global
+
+```
+
+
 - 079 Closures
 - 080 Funcão Factory 01
 - 081 Funcão Factory 02
