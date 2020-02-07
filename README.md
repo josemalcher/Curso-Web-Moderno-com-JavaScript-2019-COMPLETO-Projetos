@@ -1805,6 +1805,11 @@ exer() // Global
 
 
 - 079 Closures
+
+```js
+//reassistir
+```
+
 - 080 Funcão Factory 01
 - 081 Funcão Factory 02
 - 082 Classe vs Funcão Factory
