@@ -1827,6 +1827,9 @@ console.log(minhaFuncao())
 ```
 
 - 080 Funcão Factory 01
+
+
+
 - 081 Funcão Factory 02
 - 082 Classe vs Funcão Factory
 - 083 Desafio Funcão Construtora
