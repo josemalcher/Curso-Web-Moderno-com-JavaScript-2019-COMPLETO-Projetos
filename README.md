@@ -1827,8 +1827,20 @@ console.log(minhaFuncao())
 ```
 
 - 080 Funcão Factory 01
+  - 05-Javascript-Funcao\factory.js
+  
+```js
+// factory simples
 
+function criarPessoas(){
+    return{
+        nome:'Ana',
+        sobrenome: 'silva'
+    }
+}
+console.log(criarPessoas())
 
+```
 
 - 081 Funcão Factory 02
 - 082 Classe vs Funcão Factory
