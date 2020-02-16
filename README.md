@@ -1843,6 +1843,21 @@ console.log(criarPessoas())
 ```
 
 - 081 Funcão Factory 02
+  - 05-Javascript-Funcao\factory2.js
+
+```js
+ function criarProduto(nome, preco){
+    return{
+        nome, 
+        preco,
+        desconto: 0.1
+    }
+ }
+
+ console.log(criarProduto('Notebook', 10000))
+ console.log(criarProduto('Celular', 3000))
+```
+
 - 082 Classe vs Funcão Factory
 - 083 Desafio Funcão Construtora
 - 084 IIFE
