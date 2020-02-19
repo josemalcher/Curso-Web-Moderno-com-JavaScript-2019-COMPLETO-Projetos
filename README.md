@@ -1905,6 +1905,17 @@ José Malcher
 ```
 
 - 084 IIFE
+  - 05-Javascript-Funcao\IIFE.js
+
+```js
+// IIFE -> Imediatamente invocada Function expression (fugir do escopo global)
+
+(function(){
+    console.log('Será executado na hora!')
+    console.log('Foge do escopo mais abrangente')
+})()
+```
+
 - 085 Call  Apply
 
 [Voltar ao Índice](#indice)
