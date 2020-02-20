@@ -1958,7 +1958,23 @@ const produto = {
 
 ## <a name="parte6"> Javascript: Objeto - 17 aulas</a>
 
-
+- 086 - Introdução a OO
+- 087 - Revisão sobre Objeto
+- 088 - Estrategias de criação de Objetos
+- 089 - Objetos Constantes
+- 090 - Notações Literais
+- 091 - Getters Setters
+- 092 - Funções importantes de Objetos
+- 093 - Herança 01
+- 094 - Herança 02
+- 095 - Herança 03
+- 096 - Herança 04
+- 097 - Herança 05
+- 098 - Herança 06
+- 099 - Evitando modificações
+- 100 - JSON vc Objeto
+- 101 - Classes 01
+- 102 - Classes 02
 
 [Voltar ao Índice](#indice)
 
