@@ -1959,6 +1959,37 @@ const produto = {
 ## <a name="parte6"> Javascript: Objeto - 17 aulas</a>
 
 - 086 - Introdução a OO
+  - 06-Javascript-Objeto\086-Introducao-ao-OO.js
+
+```js
+// Código não Executável!
+
+// Procedural
+processamento(valor1, valor2, valor3)
+
+// OO
+objeto = {
+    valor,
+    valor2,
+    valor,
+    processamento(){
+        // ..
+    }
+}
+objeto.processamento(); // Foco passou a ser o Objeto
+
+/* 
+
+Principios:
+1. Abstração
+2. Encapsulamento
+3. Herança (prototype)
+4. Polimorfismo
+
+*/
+
+```
+
 - 087 - Revisão sobre Objeto
 - 088 - Estrategias de criação de Objetos
 - 089 - Objetos Constantes
